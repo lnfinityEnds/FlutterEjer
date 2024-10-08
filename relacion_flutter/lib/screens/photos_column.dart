@@ -10,9 +10,9 @@ class PhotosColumnScreen extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset('assets/photo1.png', width: 100, height: 100),
-          Image.asset('assets/photo2.png', width: 100, height: 100),
-          Image.asset('assets/photo3.png', width: 100, height: 100),
+          Image.asset('images/img1.jpg', width: 100, height: 100),
+          Image.asset('images/img2.jpg', width: 100, height: 100),
+          Image.asset('images/img3.png', width: 100, height: 100),
         ],
       ),
     );

@@ -1,8 +1,10 @@
+
 import 'package:flutter/material.dart';
-import 'package:relacion_flutter/contacto.dart';
-import 'package:relacion_flutter/icons_screen.dart';
-import 'package:relacion_flutter/photos_column.dart';
-import 'package:relacion_flutter/photos_rows.dart';
+import 'package:relacion_flutter/screens/contacto.dart';
+import 'package:relacion_flutter/screens/photos_column.dart';
+import 'package:relacion_flutter/screens/photos_rows.dart';
+
+import 'icons_screen.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -18,11 +20,11 @@ class MyHomePageState extends State<MyHomePage> {
   Widget _getDrawerItemWidget(int pos) {
     switch (pos) {
       case 0:
-        return NameScreen();  // Pantalla con nombre y repositorio
+        return const NameScreen();  // Pantalla con nombre y repositorio
       case 1:
-        return PhotosRowScreen();  // Pantalla con 3 fotos en fila
+        return const PhotosRowScreen();  // Pantalla con 3 fotos en fila
       case 2:
-        return PhotosColumnScreen();  // Pantalla con 3 fotos en columnas
+        return const PhotosColumnScreen();  // Pantalla con 3 fotos en columnas
       case 3:
         return const IconsScreen();  // Pantalla con 5 iconos
       default:

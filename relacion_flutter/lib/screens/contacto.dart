@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class NameScreen extends StatelessWidget {
+  const NameScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -11,7 +13,7 @@ class NameScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            "Tu Nombre y Apellidos",
+            "Jhon Deivis Ayala Braithwite",
             style: GoogleFonts.roboto(
               textStyle:
                   const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
@@ -19,7 +21,7 @@ class NameScreen extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           Text(
-            "https://github.com/tu-repositorio",
+            "https://github.com/lnfinityEnds/FlutterEjer.git",
             style: GoogleFonts.lato(
               textStyle:
                   const TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
